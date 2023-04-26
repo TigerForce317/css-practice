@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vertical align 사용 - display: table</title>
+    <style>
+    html, body {
+        height: 100%;
+        background-color: #000011;
+        font-size: 30px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .box1-wrap {
+        display: table;
+        width: 100%;
+        height: 25%;
+    }
+    .box2-wrap {
+        display: table;
+        width: 100%;
+        height: 25%;
+    }
+    .box3-wrap {
+        display: table;
+        width: 100%;
+        height: 25%;
+    }
+    .box4-wrap {
+        display: table;
+        width: 100%;
+        height: 25%;
+    }
+    .box1 {
+        background-color: skyblue;
+        border: 10px solid darkgray;
+        box-sizing: border-box;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .box2 {
+        background-color: white;
+        border: 10px solid darkgray;
+        box-sizing: border-box;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .box3 {
+        background-color: white;
+        border: 10px solid darkgray;
+        box-sizing: border-box;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .box4 {
+        background-color: white;
+        border: 10px solid darkgray;
+        box-sizing: border-box;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .border-bottom {
+        border-bottom: 0px solid;
+    }
+</style>
+<script>
+
+</script>
+</head>
+<body>
+    <div class="box1-wrap">
+        <div class="box1 border-bottom">box 1</div>
+    </div>
+    <div class="box2-wrap">
+        <div class="box2 border-bottom">box 2</div>
+    </div>
+    <div class="box3-wrap">
+        <div class="box3 border-bottom">box 3</div>
+    </div>
+    <div class="box4-wrap">
+        <div class="box4">box 4</div>
+    </div>
+
+</body>
+</html>
